@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Custom New Tab",
+    "version": "1.0",
+    "description": "A Chrome extension to customize the new tab background image while keeping the original Google search.",
+    "chrome_url_overrides": {
+      "newtab": "newtab.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  

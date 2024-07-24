@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Custom New Tab</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    #logo {
+      margin-bottom: 24px;
+    }
+    #search-container {
+      text-align: center;
+    }
+    #search-input {
+      width: 400px;
+      padding: 16px;
+      border: 1px solid #dcdcdc;
+      border-radius: 24px;
+      font-size: 16px;
+    }
+    #search-button {
+      padding: 16px 24px;
+      border: none;
+      border-radius: 24px;
+      background-color: #4285F4;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      margin-left: 8px;
+    }
+    #icons-container {
+      margin-top: 32px;
+      display: flex;
+      gap: 16px;
+    }
+    .icon img {
+      width: 24px;
+      height: 24px;
+    }
+  </style>
+</head>
+<body>
+  <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png" alt="Google Logo" width="272" height="92">
+  
+  <div id="search-container">
+    <input id="search-input" type="text" placeholder="Search Google or type a URL">
+    <button id="search-button">Search</button>
+  </div>
+
+  <div id="icons-container">
+    <a class="icon" href="https://mail.google.com/" title="Gmail">
+      <img src="https://www.gstatic.com/images/branding/product/2x/gmail_2020q4_32dp.png" alt="Gmail Icon">
+    </a>
+    <a class="icon" href="https://calendar.google.com/" title="Calendar">
+      <img src="https://www.gstatic.com/images/branding/product/2x/calendar_32dp.png" alt="Calendar Icon">
+    </a>
+    <a class="icon" href="https://drive.google.com/" title="Drive">
+      <img src="https://www.gstatic.com/images/branding/product/2x/drive_32dp.png" alt="Drive Icon">
+    </a>
+    <a class="icon" href="https://photos.google.com/" title="Photos">
+      <img src="https://www.gstatic.com/images/branding/product/2x/photos_32dp.png" alt="Photos Icon">
+    </a>
+    <a class="icon" href="https://www.youtube.com/" title="YouTube">
+      <img src="https://www.gstatic.com/images/branding/product/2x/youtube_32dp.png" alt="YouTube Icon">
+    </a>
+    <a class="icon" href="https://news.google.com/" title="News">
+      <img src="https://www.gstatic.com/images/branding/product/2x/news_32dp.png" alt="News Icon">
+    </a>
+    <a class="icon" href="https://www.google.com/maps/" title="Maps">
+      <img src="https://www.gstatic.com/images/branding/product/2x/maps_32dp.png" alt="Maps Icon">
+    </a>
+  </div>
+
+  <script src="newtab.js"></script>
+</body>
+</html>
